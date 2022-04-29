@@ -1,0 +1,90 @@
+header
+{
+	padding-left:80%;
+}
+.main
+{
+font-size:100%;
+margin-top: 5%;
+}
+.first
+{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 30%;
+}
+.second
+{
+	margin-left: 55%;
+}
+footer
+{
+	margin-top: 7%;
+	position: absolute;
+    width:100%;
+    border-top: solid rgba(0,0,0,0.5);
+    box-shadow: 3px 4px 5 px 6px #000;
+}
+p
+{
+	color: #6552C4;
+	font-family: monaco;
+	font-style: bold;
+}
+.cls1
+{
+	line-height: 0px;
+	margin-left: 7%;
+}
+.cls2
+{
+	position: absolute;
+	margin-left: 10%;
+	padding-bottom: 3%;
+}
+.cls3
+{
+  margin-left: 70%;
+}
+@media only screen and (max-width:600px)
+{
+	header img
+	{
+		width: 113%;
+		margin-left: 9%;
+	}
+	.first
+	{
+		margin-left:-2%;
+		line-height: 133%;
+		font-size:82%;
+	}
+	.second
+	{
+		width: -1%;
+		font-size:82%;
+		margin-left: 57%;
+	}
+	.cls1 p
+	{
+		font-size: 38%;
+	}
+	.cls1
+	{
+		width: 37%;
+		margin-left: -2%;
+	}
+    .cls2
+    {
+    	font-size: 71%;
+    	margin-left: -2%;
+    }
+    .cls3
+    {
+    	margin-left: 60%;
+    }
+    .cls3 h3
+    {
+    	font-size: 71%;
+    }
+}
